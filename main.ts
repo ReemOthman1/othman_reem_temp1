@@ -1,3 +1,3 @@
 while (true) {
-    console.log("Temperature (F):" + input.temperature(TemperatureUnit.Fahrenheit) + " - Temperature (C):" + input.temperature(TemperatureUnit.Celsius))
+    console.log(" Current Room Temperature (F):" + input.temperature(TemperatureUnit.Fahrenheit) + " - Current Room Temperature (C):" + input.temperature(TemperatureUnit.Celsius))
 }
