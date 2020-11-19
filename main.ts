@@ -1,8 +1,9 @@
+let tempF = 60
 while (true) {
-    console.log(" Current Room Temperature:" + input.temperature(TemperatureUnit.Fahrenheit) + "°F - " + input.temperature(TemperatureUnit.Celsius) + "°C")
+    if (input.temperature(TemperatureUnit.Fahrenheit) > tempF) {
+        light.setPixelColor(5, light.rgb(255, 0, 0))
+    } else {
+        light.clear()
+    }
+    
 }
-let TempF = 60
-if (TempF > 60) {
-    light.setPixelColor(5, light.rgb(255, 0, 0))
-}
-
