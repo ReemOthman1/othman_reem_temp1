@@ -1,4 +1,4 @@
-tempF=60
+tempF=80
 while True:
     print ("tempature"+ input.temperature(TemperatureUnit.FAHRENHEIT))  
     if input.temperature(TemperatureUnit.FAHRENHEIT) > tempF:

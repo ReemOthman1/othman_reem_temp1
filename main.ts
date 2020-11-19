@@ -1,4 +1,4 @@
-let tempF = 60
+let tempF = 80
 while (true) {
     console.log("tempature" + input.temperature(TemperatureUnit.Fahrenheit))
     if (input.temperature(TemperatureUnit.Fahrenheit) > tempF) {
