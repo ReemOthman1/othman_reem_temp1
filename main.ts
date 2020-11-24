@@ -1,6 +1,6 @@
 while (true) {
     console.log("tempature" + input.temperature(TemperatureUnit.Fahrenheit))
-    if (input.temperature(TemperatureUnit.Fahrenheit) > 70) {
+    if (input.temperature(TemperatureUnit.Fahrenheit) > 90) {
         light.setPixelColor(0, light.rgb(255, 0, 0))
         light.setPixelColor(1, light.rgb(255, 0, 0))
         light.setPixelColor(2, light.rgb(255, 0, 0))

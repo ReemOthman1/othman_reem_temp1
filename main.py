@@ -1,6 +1,6 @@
 while True:
     print ("tempature"+ input.temperature(TemperatureUnit.FAHRENHEIT))  
-    if input.temperature(TemperatureUnit.FAHRENHEIT) > 70:
+    if input.temperature(TemperatureUnit.FAHRENHEIT) > 90:
         light.set_pixel_color(0, light.rgb(255, 0, 0))
         light.set_pixel_color(1, light.rgb(255, 0, 0))
         light.set_pixel_color(2, light.rgb(255, 0, 0))
